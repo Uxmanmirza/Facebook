@@ -21,3 +21,17 @@
     margin: 5px;
     font-size: 30px;
  }
+ #people{
+    color: blue;
+    direction: absolute;
+    margin: 30px;
+    font-size: 30px;
+ }
+ 
+ #photo{
+     border-radius: 50%;
+     height: 50px;
+     width: 60px;
+     direction: absolute;
+      margin: 0px 0px 0px 250px;
+ }
