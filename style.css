@@ -21,7 +21,7 @@
     margin: 5px;
     font-size: 30px;
  }
- #people{
+ .head-icon{
     color: blue;
     direction: absolute;
     margin: 30px;
@@ -33,5 +33,6 @@
      height: 50px;
      width: 60px;
      direction: absolute;
-      margin: 0px 0px 0px 250px;
+      margin: 20px 0px 0px 200px;
  }
+ 
