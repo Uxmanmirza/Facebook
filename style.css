@@ -8,5 +8,16 @@
     font-size: 30px;
 
 }
- 
- 
+ #video{
+    color: blue;
+    direction: absolute;
+    margin: 30px;
+    font-size: 30px;
+
+ }
+ #shop{
+    color: blue;
+    direction: absolute;
+    margin: 5px;
+    font-size: 30px;
+ }
