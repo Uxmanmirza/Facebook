@@ -1,38 +1,19 @@
-#search{
-    border-style:solid;
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
 }
-#home{
-    color: blue;
-    direction: absolute;
-    margin: 20px 0px 0px 200px;
-    font-size: 30px;
+#header{
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    display: flex;
+}
+ 
+    
+
 
 }
- #video{
-    color: blue;
-    direction: absolute;
-    margin: 30px;
-    font-size: 30px;
-
- }
- #shop{
-    color: blue;
-    direction: absolute;
-    margin: 5px;
-    font-size: 30px;
- }
- .head-icon{
-    color: blue;
-    direction: absolute;
-    margin: 30px;
-    font-size: 30px;
- }
- 
- #photo{
-     border-radius: 50%;
-     height: 50px;
-     width: 60px;
-     direction: absolute;
-      margin: 20px 0px 0px 200px;
- }
- 
