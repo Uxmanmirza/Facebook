@@ -16,6 +16,9 @@ body{
     margin-top: 0px;
     width: 100%;
     display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 
 }
 #fb-icon{
@@ -53,6 +56,32 @@ body{
     height: 40px;
     margin-left: 30px;
     margin-top: 5px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+
+}
+.leftsidebar{
+    background:lightskyblue;
+    flex-basis: 25%;
+    position: sticky;
+    top: 65px;
+    align-self: flex-start;
+    
+}
+.rightsidebar{
+    background:lightskyblue;
+    flex-basis: 25%;
+    position: sticky;
+    top: 65px;
+    align-self: flex-start;
+  
+}
+.mainbar{
+    flex-basis: 47%;
+
 }
 
 
