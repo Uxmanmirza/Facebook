@@ -30,24 +30,29 @@ body{
 }
 #home{
     height: 50px;
-    margin-left: 80px;
+    margin-left: 120px;
 }
 #noti{
     height: 50px;
-    margin-left: 20px;
+    margin-left: 45px;
 
 }
 #group{
     height: 50px;
-    margin-left: 45px;
+    margin-left: 55px;
 }
-#dp{
+.dp{
     height: 40px;
     margin-left: 200px;
     margin-top: 5px;
     border-radius: 50%;
     
     
+}
+#mess{
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 5px;
 }
 
 
