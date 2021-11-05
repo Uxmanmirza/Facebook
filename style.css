@@ -4,9 +4,35 @@
     box-sizing: border-box;
 
 } 
-#twiicon{
-    height: 10px;
-    color: blue;
-    width: 30px;
-}
+body{
+    --twitter-color:#50b7f5;
+    --twitter-background: #e6ecf0;
 
+}
+ 
+.sidebaroption{
+    display: flex;
+    align-content: center;
+    cursor: pointer;
+
+}
+.sidebaroption ,.bi-twitter{
+    padding: 5px;
+    margin-left: 20px;
+    
+
+} 
+.sidebaroption h2{
+    font-weight: 800;
+    font-size: 15px;
+    margin-right: 30px;
+}
+.sidebaroption:hover{
+    background-color: var(--twitter-background);
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+.sidebaroption.active{
+    color: var(--twitter-color);
+}
