@@ -146,11 +146,12 @@ margin-left: auto;
     display: flex;
     align-content: flex-start;
     border-bottom: 2px solid var(--twitter-background);
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+     
 
 }
 .postbody img{
-width: 600px;
+width: 500px;
 object-fit: contain;
 border-radius: 20px;
 
@@ -164,4 +165,17 @@ border-radius: 20px;
     color: var(--twitter-color);
     margin-left: 5px;
 
+}
+.postheadertext{
+    font-size: 1px;
+    font-weight: 100;
+    color: gray;
+}
+.postbody{
+    flex: 2;
+    padding: 20px;
+}
+.postheadertext h3{
+    font-size: 20px;
+    color: black;
 }
