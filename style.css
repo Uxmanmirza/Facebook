@@ -74,13 +74,14 @@ body {
   background-color: white;
   z-index: 100;
   border: 2px solid var(--twitter-background);
-  padding: 20px 300px;
-  /* margin: 0; */
+  padding: 5px 15px ;
+  
 }
+ 
 .feedheader h2 {
   font-size: 25px;
   font-weight: 800;
-  margin-right: -100px;
+  /* margin-right: 100px; */
 }
 .tweetbox-input img {
   border-radius: 50%;
@@ -88,9 +89,9 @@ body {
   width: 70px;
 }
 .tweetbox {
-  padding-bottom: 20px;
-  border-bottom: 1px solid var(--twitter-background);
-  padding-right: 400px;
+  padding-bottom: 5px;
+  border-bottom: 10px solid var(--twitter-background);
+  padding-right: 100px;
   /* margin: 20px 0px 0px 100px; */
 }
 .tweetbox form {
@@ -116,8 +117,7 @@ body {
   border-radius: 350px;
   width: 100px;
   height: 30px;
-  margin-top: 60px;
-  margin-left: auto;
+  
 }
 .postdp img {
   border-radius: 50%;
@@ -191,4 +191,10 @@ body {
 .widget-widgetcontainer h2{
     font-size: 30px;
     font-weight: 300;
+}
+.icons{
+   
+    display: flex;
+    margin: 0px 0px 40px 60px;
+    align-content: space-between
 }
